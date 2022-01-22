@@ -24,8 +24,6 @@ It should look like this
 `[ + ] Connection establisted | {clientIP}, {clientPort}`
 `[ $ ] Server | `
 
-* Bonus!) You can also run 'python3 setup.py build' to turn your client file into a standalone executable! (change the variables inside to match what you have)
-
 ### Diagram | how it works
 
 * This is a simplified version
