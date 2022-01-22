@@ -173,6 +173,10 @@ def start_shell():
             else:
                 print(f'[ $ ] Invalid command')
 
+def main():
+    socket_create()
+    socket_bind()
+    socket_accept()
 
-create_thread()
-create_jobs()
+main()
+    
