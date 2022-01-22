@@ -11,7 +11,7 @@ Except for the server address, everything in the files should work on start
 ## How to use
 
 * 1) You will need to host/run Server.py or MiniServer.py, this will be getting and sending info
-* 
+
 * 2) Change the IP address in Client.py or MiniClient.py (>IP<) to your server's IP address so it can connect
 
 * 3) Run your client file
