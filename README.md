@@ -6,7 +6,7 @@ This is a reverse shell for ethical hacking, please use this for educational or 
 
 # Shell
 
-Except for the server address, everything in the files should work on start
+Except for the server address, everything in the files should work on start (Remember to keep the Servers address as a string!)
 
 ## How to use
 
@@ -23,6 +23,8 @@ It should look like this
 `[ + ] Binding connection | {port}`
 `[ + ] Connection establisted | {clientIP}, {clientPort}`
 `[ $ ] Server | `
+
+* Bonus!) You can also run 'python3 setup.py build' to turn your client file into a standalone executable! (change the variables inside to match what you have)
 
 ### Diagram | how it works
 
