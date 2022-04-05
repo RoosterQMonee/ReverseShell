@@ -37,6 +37,4 @@ Client ->> Server: Connection Request
 Server ->> Client: Accept Request
 
 Server ->> Client: Command
-
-Computer(s) <<- Client: Execute Command
 ```
