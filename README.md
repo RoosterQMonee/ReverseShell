@@ -38,5 +38,5 @@ Server ->> Client: Accept Request
 
 Server ->> Client: Command
 
-Client ->> Computer(s): Execute Command
+Computer(s) <<- Client: Execute Command
 ```
