@@ -20,8 +20,11 @@ Except for the server address, everything in the files should work on start (Rem
 It should look like this
 
 `[ + ] Server created | {port}`
+
 `[ + ] Binding connection | {port}`
+
 `[ + ] Connection establisted | {clientIP}, {clientPort}`
+
 `[ $ ] Server | `
 
 ### Diagram | how it works
@@ -33,5 +36,7 @@ sequenceDiagram
 Client ->> Server: Connection Request
 Server ->> Client: Accept Request
 
-Server ->> Client: (Command)
+Server ->> Client: Command
+
+Client ->> Computer(s): Execute Command
 ```
