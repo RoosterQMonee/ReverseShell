@@ -17,7 +17,7 @@ Except for the server address, everything in the files should work on start (Rem
 * 3) Run your client file
 
 * 4) Run your commands from your Server instance
-It should look like this
+(It should look like this)
 
 ```
 [ + ] Server created | {port}
