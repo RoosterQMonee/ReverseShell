@@ -19,13 +19,12 @@ Except for the server address, everything in the files should work on start (Rem
 * 4) Run your commands from your Server instance
 It should look like this
 
-`[ + ] Server created | {port}`
-
-`[ + ] Binding connection | {port}`
-
-`[ + ] Connection establisted | {clientIP}, {clientPort}`
-
-`[ $ ] Server | `
+```
+[ + ] Server created | {port}
+[ + ] Binding connection | {port}
+[ + ] Connection establisted | {clientIP}, {clientPort}
+[ $ ] Server | 
+```
 
 ### Diagram | how it works
 
