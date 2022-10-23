@@ -28,6 +28,8 @@ Except for the server address, everything in the files should work on start (Rem
 
 ### Diagram | how it works
 
+-> update: this diagram sucks lmao
+
 * This is a simplified version
 
 ```mermaid
